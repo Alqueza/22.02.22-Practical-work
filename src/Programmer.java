@@ -25,7 +25,7 @@ public class Programmer extends Person implements CanDrive,Swimmable{
 
     @Override
     public void swim() {
-        System.out.println(name+" пошел на пляж купаться.");
+        System.out.println("\n"+name+" пошел на пляж купаться.");
     }
 
     @Override
@@ -35,8 +35,6 @@ public class Programmer extends Person implements CanDrive,Swimmable{
 
     @Override
     public String toString() {
-        return "Programmer{" +
-                "learnLanguage='" + learnLanguage + '\'' +
-                '}';
+        return "\nИмя:"+name;
     }
 }

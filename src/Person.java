@@ -2,13 +2,13 @@ public class Person {
     protected String name;
     protected int age;
 
+    public Person(){
+
+    }
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
-    }
-
-    public Person(){
-
     }
 
     public String getName() {
@@ -33,9 +33,8 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+        return "Person" +
+                "\nname:" + name +
+                "\nage:" + age;
     }
 }

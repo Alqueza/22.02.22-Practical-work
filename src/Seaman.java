@@ -20,7 +20,7 @@ public class Seaman extends Person implements Swimmable{
 
     @Override
     public void swim() {
-        System.out.println(name+" поплыл.");
+        System.out.println("\n"+name+" поплыл на корабле "+boatName+" изучать просторы моря!!");
     }
 
     @Override
@@ -30,8 +30,6 @@ public class Seaman extends Person implements Swimmable{
 
     @Override
     public String toString() {
-        return "Seaman{" +
-                "boatName='" + boatName + '\'' +
-                '}';
+        return "\nИмя:"+name;
     }
 }

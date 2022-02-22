@@ -20,7 +20,7 @@ public class Driver extends Person implements CanDrive{
 
     @Override
     public void drive() {
-        System.out.println(name+" завел машину:"+carName+" и поехал.");
+        System.out.println(name+" завел машину "+carName+" и поехал.");
     }
 
     @Override
@@ -30,8 +30,6 @@ public class Driver extends Person implements CanDrive{
 
     @Override
     public String toString() {
-        return "Driver{" +
-                "carName='" + carName + '\'' +
-                '}';
+        return "\nИмя:"+name;
     }
 }

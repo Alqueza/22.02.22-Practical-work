@@ -25,18 +25,16 @@ public class Sportsman extends Person implements Swimmable,CanDrive{
 
     @Override
     public void swim() {
-        System.out.println(name+" нырнул в озеро ласточкой.");
+        System.out.println("\n"+name+" нырнул в озеро ласточкой.");
     }
 
     @Override
     public void personInfo() {
-        System.out.println("\nИмя:"+name+"\nВозраст:"+age+"Занимается спортом:"+sport);
+        System.out.println("\nИмя:"+name+"\nВозраст:"+age+"\nЗанимается спортом:"+sport);
     }
 
     @Override
     public String toString() {
-        return "Sportsman{" +
-                "sport='" + sport + '\'' +
-                '}';
+        return "\nИмя:"+name;
     }
 }
