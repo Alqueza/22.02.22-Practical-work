@@ -1,5 +1,7 @@
 public class Seaman extends Person implements Swimmable{
+
     private String boatName;
+
     public Seaman(String name, int age, String boatName) {
         super(name, age);
         this.boatName = boatName;

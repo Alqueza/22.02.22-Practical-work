@@ -1,5 +1,7 @@
 public class Sportsman extends Person implements Swimmable,CanDrive{
+
     private String sport;
+
     public Sportsman(String name, int age,String sport) {
         super(name, age);
         this.sport = sport;

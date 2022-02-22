@@ -1,5 +1,7 @@
 public class Driver extends Person implements CanDrive{
+
     private String carName;
+
     public Driver(String name, int age,String carName) {
         super(name, age);
         this.carName = carName;

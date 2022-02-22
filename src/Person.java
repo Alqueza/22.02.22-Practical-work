@@ -28,7 +28,7 @@ public class Person {
     }
 
     public void personInfo() {
-        System.out.println("\nИмя:"+"\nВозраст"+age);
+        System.out.println("\nИмя:"+name+"\nВозраст"+age);
     }
 
     @Override
