@@ -15,7 +15,7 @@ public class Main {
 
         Driver driver = new Driver("aibek", 25, "Tesla");
         driver.personInfo();
-        driver.drive();
+        driver.buyCar();
         System.out.println();
 
         Sportsman sportsman1 = new Sportsman("Anastasia", 23, "Swimmer");

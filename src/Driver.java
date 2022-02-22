@@ -18,6 +18,10 @@ public class Driver extends Person implements CanDrive{
         this.carName = carName;
     }
 
+    public void buyCar(){
+        System.out.println(name+" хочет купить машину");
+    }
+
     @Override
     public void drive() {
         System.out.println(name+" завел машину "+carName+" и поехал.");
