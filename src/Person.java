@@ -1,6 +1,6 @@
 public class Person {
-    private String name;
-    private int age;
+    protected String name;
+    protected int age;
 
     public Person(String name, int age) {
         this.name = name;
@@ -27,8 +27,8 @@ public class Person {
         this.age = age;
     }
 
-    public void age(){
-        System.out.println(name+" age:"+age);
+    public void personInfo() {
+        System.out.println("\nИмя:"+"\nВозраст"+age);
     }
 
     @Override
